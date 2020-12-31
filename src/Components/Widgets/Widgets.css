@@ -1,0 +1,45 @@
+.widget {
+    position: sticky;
+    top: 80px;
+    flex: 0.2;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    height: fit-content;
+    padding-bottom: 10px;
+    background-color: white;
+}
+.widget__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.widget__header > h2 {
+    font-size: 16px;
+    font-weight: 600;
+}
+.widget__artical {
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+}
+.widget__artical:hover {
+    background-color: whitesmoke;
+}
+.widget__articalLeft {
+    padding-right: 6px;
+    color: #0177b7;
+}
+.widget__articalLeft > .MuiSvgIcon-root {
+    font-size: 16px;
+}
+.widget__articalRight {
+    flex: 1;
+}
+.widget__articalRight > h4 {
+    font-size: 14px;
+}
+.widget__articalRight > p {
+    color: gray;
+    font-size: 12px;
+}
